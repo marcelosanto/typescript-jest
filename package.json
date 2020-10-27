@@ -1,11 +1,11 @@
 {
-  "name": "typescriptsolid",
+  "name": "typescript-jest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:silent": "jest --watchAll --silent --nostStackTrace"
+    "test:silent": "jest --watchAll --silent --noStackTrace"
   },
   "keywords": [],
   "author": "Marcelo Santos",

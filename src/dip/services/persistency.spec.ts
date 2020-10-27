@@ -4,3 +4,10 @@ describe('TESTANDO ALGUMA COISA', () => {
     expect(number).toBe(1)
   })
 })
+
+describe('TESTANDO OUTRA COISA', () => {
+  test('should return Marcelo', () => {
+    const name = 'Marcelo'
+    expect(name).toBe('Marcelo')
+  })
+})
