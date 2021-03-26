@@ -20,7 +20,7 @@ export class ShoppingCart implements ShoppingCartProtocol {
   }
 
   total(): number {
-    return +this._items.reduce((item, next) => item + next.price, 1).toFixed(2)
+    return +this._items.reduce((item, next) => item + next.price, 0).toFixed(2)
   }
 
   totalWithDiscount(): number {
